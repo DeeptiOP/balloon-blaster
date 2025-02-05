@@ -1,0 +1,83 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(105deg, #03084dca, #35023b);
+    color: #ffd900;
+    transition: background 0.5s ease, color 0.5s ease;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#gameCanvas {
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 2px solid #6c5ce7;
+    max-width: 100%;
+    height: auto;
+    transition: border-color 0.5s ease;
+    box-shadow: 0 0 25px rgba(108, 92, 231, 0.5);
+    border-radius: 10px;
+}
+
+.score-container {
+    color: #ddfeff;
+    animation: glow 1.5s ease-in-out infinite alternate;
+    text-shadow: 0 0 15px rgba(116, 185, 255, 0.8);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px rgba(116, 185, 255, 0.5);
+    }
+    to {
+        text-shadow: 0 0 20px rgba(116, 185, 255, 1);
+    }
+}
+
+#themeButton {
+    transition: all 0.3s ease;
+    border-width: 2px;
+    background: linear-gradient(135deg, #00cec9, #0984e3);
+    color: #ffffff;
+    border: 2px solid #81ecec;
+    transition: all 0.3s ease;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#themeButton:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgb(209, 210, 224);
+    background: linear-gradient(135deg, #0984e3, #00cec9);
+}
+
+.btn {
+    background: #6c5ce7;
+    color: #ffffff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(108, 92, 231, 0.6);
+    background: #a29bfe;
+}
+
+h1.display-4 {
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.6);
+    color: #fdcb6e;
+    margin-bottom: 1.5rem;
+    font-size: 3rem;
+    transition: color 0.3s ease;
+}
+
+h1.display-4:hover {
+    color: #ffeaa7;
+    text-shadow: 0 0 20px rgba(253, 203, 110, 0.9);
+}

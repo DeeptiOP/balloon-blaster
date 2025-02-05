@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='favicon.icon.png') }}">
+    <title>Balloon Pop Game</title>
+    <link href="https://cdn.replit.com/agent/bootstrap-agent-dark-theme.min.css" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.8.49/Tone.js"></script>
+</head>
+<body>
+    <div class="container my-4">
+        <div class="row text-center">
+            <div class="col-12">
+                <h1 class="display-4">Balloon Pop</h1>
+                <div class="score-container mb-3">
+                    <span class="h4">Score: <span id="score">0</span></span>
+                    <span class="h4 ms-4">Best: <span id="bestScore">0</span></span>
+                    <span class="h4 ms-4">Time: <span id="timer">60</span>s</span>
+                </div>
+                <button id="themeButton" class="btn btn-outline-secondary mb-3">Theme: Classic Dark</button>
+                <canvas id="gameCanvas" class="rounded"></canvas>
+                <div class="mt-3">
+                    <button id="startButton" class="btn btn-secondary">Start Game</button>
+                    <button id="stopButton" class="btn btn-danger d-none">Stop Game</button>
+                    <button id="restartButton" class="btn btn-info d-none">Play Again</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/particles.js') }}" defer></script>
+    <script src="{{ url_for('static', filename='js/game.js') }}" defer></script>
+</body>
+</html>
