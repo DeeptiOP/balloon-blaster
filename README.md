@@ -6,11 +6,8 @@ Welcome to the **Balloon Blaster Game**, a fun and interactive web-based game wh
 ## Table of Contents  
 
 - [Features](#features)  
-- [Technologies Used](#technologies-used)  
-- [Installation](#installation)  
-- [Usage](#usage)  
-- [Game Rules](#game-rules)  
-- [Contributing](#contributing)  
+- [Technologies Used](#technologies-used)   
+- [Usage](#usage)    
 
 ## Features  
 
