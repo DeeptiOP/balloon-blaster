@@ -11,7 +11,6 @@ Welcome to the **Balloon Blaster Game**, a fun and interactive web-based game wh
 - [Usage](#usage)  
 - [Game Rules](#game-rules)  
 - [Contributing](#contributing)  
-- [License](#license)  
 
 ## Features  
 
