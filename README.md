@@ -1,5 +1,5 @@
 # Balloon Blaster Game  
-<img src="https://github.com/user-attachments/assets/BalloonBlaster/generated-icon.png" alt="balloon blaster" width="100"/>
+<img src="https://github.com/DeeptiOP/balloon-blaster/blob/main/BalloonBlaster/generated-icon.png?raw=true" alt="balloon blaster" width="100"/>
 
 Welcome to the **Balloon Blaster Game**, a fun and interactive web-based game where players can burst balloons using their mouse! This project was developed using Flask for the backend and HTML, CSS, and JavaScript for the frontend.  
 
