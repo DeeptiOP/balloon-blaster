@@ -22,7 +22,7 @@ Welcome to the **Balloon Blaster Game**, a fun and interactive web-based game wh
 - Responsive design for mobile and desktop
    
 ## 🎥 Animated Preview
-<img src="https://github.com/user-attachments/assets/BalloonBlaster/Screenshot 2025-02-06 011813.png" alt="balloon blaster"/> 
+<img src="https://github.com/DeeptiOP/balloon-blaster/blob/main/Screenshot%202025-02-06%20011813.png?raw=true" alt="balloon blaster"/> 
 
 ## Technologies Used  
 
