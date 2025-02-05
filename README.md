@@ -1,5 +1,5 @@
 # Balloon Blaster Game  
-<img src="https://github.com/user-attachments/assets/6cceb8dc-a49c-4be5-bdc6-7db617e74c0" alt="Tic Tac Toe Logo" width="100"/>
+<img src="https://github.com/user-attachments/assets/BalloonBlaster/generated-icon.png" alt="balloon blaster" width="100"/>
 
 Welcome to the **Balloon Blaster Game**, a fun and interactive web-based game where players can burst balloons using their mouse! This project was developed using Flask for the backend and HTML, CSS, and JavaScript for the frontend.  
 
@@ -22,7 +22,7 @@ Welcome to the **Balloon Blaster Game**, a fun and interactive web-based game wh
 - Responsive design for mobile and desktop
    
 ## 🎥 Animated Preview
-![Screenshot 2025-02-06 011813](path_to_your_screenshot/Screenshot%2025-02-06%20011813.png)  
+<img src="https://github.com/user-attachments/assets/BalloonBlaster/Screenshot 2025-02-06 011813.png" alt="balloon blaster"/> 
 
 ## Technologies Used  
 
